@@ -1,7 +1,6 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #282d35;
 
@@ -10,6 +9,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --dark-blue: #22252c;
+  --light: rgba(255, 255, 255, 0.87);
+  --orange-accent: #de843f;
 }
 
 * {

@@ -8,9 +8,19 @@
   width: 410px;
 }
 
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 100%;
+  gap: 1rem;
+}
+
 .card-container {
   display: grid;
-  background: #22252C;
+  background: var(--dark-blue);
   border-radius: 10px;
   place-items: center;
   margin: 50px auto;
@@ -19,10 +29,10 @@
 
 .card-container > h1 {
   margin-top: 1.5rem;
-} 
+}
 
 .card-container > h3 {
-  color: #DE843F;
+  color: var(--orange-accent);
   font-weight: 400;
 }
 
@@ -36,4 +46,26 @@
   border-radius: 10px 10px 0 0;
   width: 100%;
   overflow: hidden;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 50%;
+  font-weight: bold;
+  font-family: inherit;
+  display: flex;
+}
+
+.email-button {
+  background-color: var(--light);
+  color: var(--dark-blue);
+}
+
+.linkedin-button {
+  background-color: #0072b1;
+  color: var(--light);
 }
