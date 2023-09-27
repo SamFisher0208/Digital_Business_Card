@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   color: rgba(255, 255, 255, 0.87);
-  background-color: #282d35;
+  background-color: var(--grey-blue);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -10,6 +10,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
+  --grey-blue: #282d35;
+  --light-blue: #364050;
   --dark-blue: #22252c;
   --light: rgba(255, 255, 255, 0.87);
   --orange-accent: #de843f;

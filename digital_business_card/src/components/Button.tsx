@@ -12,7 +12,7 @@ export default function Button({ titleText }: TitleText) {
   // Determine the appropriate class and icon based on the titleText
   if (titleText === "Email") {
     buttonClass += " email-button";
-    icon = <MdEmail />;
+    icon = <MdEmail size={20} />;
   } else if (titleText === "LinkedIn") {
     buttonClass += " linkedin-button";
     icon = <AiFillLinkedin />;
