@@ -68,7 +68,7 @@
 .email-button {
   background-color: var(--light-blue);
   color: var(--light);
-  transition: 0.1s all ease;
+  transition: 0.2s all ease-out;
 
   &:hover {
     background-color: var(--light);
@@ -79,7 +79,7 @@
 .linkedin-button {
   background-color: #2f82e7;
   color: var(--light);
-  transition: 0.1s all ease;
+  transition: 0.1s all ease-out;
 
   &:hover {
     background-color: var(--light);
