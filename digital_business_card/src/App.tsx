@@ -1,14 +1,15 @@
 import "./App.css";
 import Button from "./components/Button";
-import Info from "./components/Info";
+import Header from "./components/Header";
 import { MdEmail } from "react-icons/md";
 import { AiFillLinkedin } from "react-icons/ai";
+import Info from "./components/Info";
 
 function App() {
   return (
     <div className="container">
       <div className="card-container">
-        <Info></Info>
+        <Header></Header>
 
         <div className="btn-container">
           <Button
@@ -21,6 +22,10 @@ function App() {
             icon={<AiFillLinkedin />}
             link="https://www.linkedin.com/in/sam-j-fisher"
           />
+        </div>
+
+        <div className="info-container">
+          <Info></Info>
         </div>
       </div>
     </div>
