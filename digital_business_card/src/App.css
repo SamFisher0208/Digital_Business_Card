@@ -5,7 +5,7 @@
   justify-content: center;
   text-align: center;
   margin: 1rem auto;
-  width: 410px;
+  width: 450px;
 }
 
 .card-container {
@@ -56,7 +56,7 @@
   border-radius: 5px;
   font-size: 18px;
   cursor: pointer;
-  width: 160px;
+  width: 180px;
   font-weight: normal;
   font-family: inherit;
   display: flex;
