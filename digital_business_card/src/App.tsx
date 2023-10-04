@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import { MdEmail } from "react-icons/md";
 import { AiFillLinkedin } from "react-icons/ai";
 import Info from "./components/Info";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <div className="info-container">
           <Info></Info>
         </div>
+
+        <Footer></Footer>
       </div>
     </div>
   );

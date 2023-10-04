@@ -111,3 +111,11 @@
   padding-top: 0.5rem;
   padding-bottom: 3rem;
 }
+
+.footer {
+  display: flex;
+  padding: 2rem;
+  background-color: var(--dark-dark-blue);
+  width: 100%;
+  height: 1rem;
+}
