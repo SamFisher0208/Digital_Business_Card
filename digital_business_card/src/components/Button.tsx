@@ -1,10 +1,10 @@
-interface TitleText {
+interface Props {
   titleText: string;
   icon: React.ReactNode;
   link: string;
 }
 
-export default function Button({ titleText, icon, link }: TitleText) {
+export default function Button({ titleText, icon, link }: Props) {
   let buttonClass = "btn";
 
   // Determine the appropriate class, icon, and link based on the titleText
